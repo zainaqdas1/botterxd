@@ -122,7 +122,7 @@ $thn = gmdate('Y',time()+60*60*5);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*5));
 
 return ' '.$jam.' '.$jam.'
-:) Chaudhry Botters :)
+:) Chaudhry Botters :) bottt.nut .cc :)
 
  
 '.$hr;
@@ -344,7 +344,7 @@ echo 'sukses';
 function getMe($aray,$arey,$ariy,$aruy,$tk,$a,$b,$c,$d,$qq,$out,$sx){
 $me=getUrl('/me/home',$tk,array(
 'fields' => 'id,name,from,message,type,created_time',
-'limit' => 01,
+'limit' => 02,
 ));
 for($i=0;$i<=count($me);$i++){
 $typ=$me[$i][type];
